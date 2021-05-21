@@ -1,6 +1,7 @@
 package subtask1
 
 class HappyArray {
+
     fun convertToHappy(sadArray: IntArray): IntArray {
         if(sadArray.size >= 3) {
             val result : MutableList<Int> = mutableListOf<Int>()
